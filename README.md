@@ -26,7 +26,7 @@ Este proyecto analiza los datos de ventas de una tienda minorista en línea para
 ## 🔎 Metodología
 
 * **Limpieza de datos:** tratamiento de valores nulos, duplicados, devoluciones y valores atípicos.
-* **Transformación:** creación de variables temporales y cálculo de `Revenue`.
+* **Transformación:** creación de variables temporales y cálculo de `TotalVenta`.
 * **Análisis comercial:** ventas, pedidos, productos, países y evolución mensual.
 * **Análisis de devoluciones:** cálculo de la tasa de devolución e identificación de productos con mayor incidencia.
 * **Segmentación RFM:** clasificación de clientes según **Recency, Frequency y Monetary**.
@@ -69,4 +69,4 @@ El análisis **RFM** permitió identificar clientes según su **recencia, frecue
 * `UnitPrice`: precio unitario.
 * `CustomerID`: identificador del cliente.
 * `Country`: país del cliente.
-* `Revenue`: valor de la transacción (`Quantity × UnitPrice`).
+* `TotalVenta`: valor de la transacción (`Quantity × UnitPrice`).
